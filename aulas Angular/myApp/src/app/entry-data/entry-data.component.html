@@ -1,0 +1,4 @@
+<input type="text" [value]='placeholder' (input)="placeholder = $any($event.target).value">
+<p>{{placeholder}}</p>
+<input type="text" [value]='placepass' (input)="placepass = $any($event.target).value">
+<p [style.color]="color"[style.font-size]='fontSize'>{{ placepass }}</p>
